@@ -7,7 +7,7 @@ To see the solutions please:
 
 - Select a week
 
-- Select an exercises from that week
+- Select an exercise from that week
 
 - Select the 'src' folder
 
