@@ -3,8 +3,27 @@ import java.util.Scanner;
 public class Palindromi {
 
     public static boolean palindrome(String text) {
-        // write code here
+        if (text.equals(reverse(text))) {
+            return true;
+        }
         return false;
+    }
+    
+    public static String reverse(String text) {
+    
+        String reversedWord = "";
+        String helperText = text;
+        int textLength = text.length();
+        
+
+        
+        while (reversedWord.length() < helperText.length()) {
+            String lastLetter = text.substring((textLength - 1),textLength);
+            textLength--;            
+            reversedWord += lastLetter;
+
+        }
+        return reversedWord;
     }
 
     public static void main(String[] args) {

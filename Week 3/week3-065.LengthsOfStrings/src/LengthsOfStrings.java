@@ -4,6 +4,10 @@ public class LengthsOfStrings {
     public static ArrayList<Integer> lengths(ArrayList<String> list) {
         ArrayList<Integer> lengthList = new ArrayList<Integer>();
         // write code here
+        for (String inputListItems: list) {
+            int length = inputListItems.length();
+            lengthList.add(length);
+        }
         
         return lengthList;
     }

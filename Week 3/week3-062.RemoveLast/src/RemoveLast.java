@@ -3,7 +3,9 @@ import java.util.Collections;
 
 public class RemoveLast {
     public static void removeLast(ArrayList<String> list) {
-    }
+        int lastItemIndex = list.size() - 1;
+        list.remove(lastItemIndex); 
+   }
 
     public static void main(String[] args) {
         // Here an example what you can do with the method 
